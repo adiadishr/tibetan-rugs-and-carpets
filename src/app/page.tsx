@@ -39,7 +39,7 @@ export default function Pag() {
             </div>
          </div>
       </section>
-      {/* Collections  */}
+      {/* Heritage  */}
       <section className="relative wrapper bg-primary h-fit">
          <div className="relative grid grid-cols-2 gap-12 wrapper">
             <div className="flex flex-col justify-center h-full gap-8 py-20 text-background">
