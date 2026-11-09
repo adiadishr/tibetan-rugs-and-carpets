@@ -12,6 +12,11 @@ const nextConfig: NextConfig = {
             hostname: "cdn11.bigcommerce.com",
             pathname: "/s-ajr4uzac3y/images/**",
          },
+         {
+            protocol: "https",
+            hostname: "images.unsplash.com",
+            pathname: "/**",
+         },
       ],
    },
    turbopack: {

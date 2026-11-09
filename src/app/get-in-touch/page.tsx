@@ -45,7 +45,7 @@ export default function Page() {
                <div className="pb-3 text-xs uppercase duration-300 border-b cursor-pointer text-primary border-primary hover:text-primary/75">
                   Instagram
                </div>
-               <div className="pb-3 text-xs uppercase duration-300 border-b cursor-pointer text-primary border-primary hover:text-primary/75">
+               {/* <div className="pb-3 text-xs uppercase duration-300 border-b cursor-pointer text-primary border-primary hover:text-primary/75">
                   TikTok
                </div>
                <div className="pb-3 text-xs uppercase duration-300 border-b cursor-pointer text-primary border-primary hover:text-primary/75">
@@ -53,7 +53,7 @@ export default function Page() {
                </div>
                <div className="pb-3 text-xs uppercase duration-300 border-b cursor-pointer text-primary border-primary hover:text-primary/75">
                   Youtube
-               </div>
+               </div> */}
                <div className="pb-3 text-xs uppercase duration-300 border-b cursor-pointer text-primary border-primary hover:text-primary/75">
                   FaceBook
                </div>

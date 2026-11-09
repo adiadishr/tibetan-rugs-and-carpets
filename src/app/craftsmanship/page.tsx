@@ -187,7 +187,7 @@ export default function Page() {
       {/* Images  */}
       <div className="grid grid-cols-4 gap-2 px-2 h-196 py-20 relative">
          <div className="absolute bg-white rounded-sm p-12 -translate-x-1/2 left-1/2 top-1/2 -translate-y-1/2 z-2 space-y-4 flex flex-col items-center justify-center">
-            <h3>See Our Photos</h3>
+            <h3>View Our Collections</h3>
             <LinkButton href="/collections">Learn More</LinkButton>
          </div>
          <div className="flex flex-col h-full gap-2">

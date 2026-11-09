@@ -60,8 +60,8 @@ export default function Navbar({ isTransparentTop = true }: NavbarProps) {
             <div className="flex items-center gap-16">
                <Navlink href="/">Home</Navlink>
                <Navlink href="/collections">Collections</Navlink>
-               <Navlink href="/craftsmanship">Crafstmanship</Navlink>
-               <Navlink href="/heritage">Heritage</Navlink>
+               <Navlink href="/craftsmanship">Craftsmanship</Navlink>
+
             </div>
             <Link href="/" className="absolute -translate-x-1/2 -translate-y-1/2 h-fit w-fit top-1/2 left-1/2">
                <div
@@ -82,9 +82,10 @@ export default function Navbar({ isTransparentTop = true }: NavbarProps) {
                </div>
             </Link>
             <div className="flex items-center gap-16">
-               <Navlink href="/collections">Gallery</Navlink>
-               <Navlink href="/collections">Journal</Navlink>
-               <Navlink href="/collections">Bespoke</Navlink>
+               <Navlink href="/heritage">Heritage</Navlink>
+               {/* <Navlink href="/collections">Gallery</Navlink> */}
+               {/* <Navlink href="/collections">Journal</Navlink> */}
+               <Navlink href="/bespoke">Bespoke</Navlink>
                <Navlink href="/get-in-touch">Get In Touch</Navlink>
             </div>
          </div>
